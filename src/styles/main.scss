@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto&display=swap');
+
+@import './app.scss';
+*,
+*::after
+,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} 
+html {
+    font-size: 62.5%;
+} 
+body {
+    background-color: $mz-theme-background-light;
+    color: $mz-theme-font-color-dark;
+    font-family: $font-sans-serif;
+    font-size: 16px;
+    line-height: 1.7rem;
+}
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 6rem;
+}

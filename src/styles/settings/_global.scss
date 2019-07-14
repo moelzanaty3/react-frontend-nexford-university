@@ -1,0 +1,16 @@
+@import "colors";
+// *----------------------------------*\
+//  Settings > Global
+// *----------------------------------*/
+$global-transition: 0.4s;
+
+
+a {
+  color: $mz-theme-success-color;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

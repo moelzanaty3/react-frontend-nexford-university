@@ -1,0 +1,57 @@
+@import "../../App";
+
+.xu-404 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: $mz-theme-primary-color;
+  .xu-404__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 50px;
+    .xu-404__content-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      .xu-404__video {
+        width: 64px;
+        &.loading-icon {
+          background-repeat: no-repeat;
+          background-position: center center;
+          width: 64px;
+          height: 64px;
+        }
+        @media screen and (min-width: 991px) {
+          min-height: 388px;
+        }
+      }
+    }
+    .xu-hero__container {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .xu-hero__description {
+        p {
+          line-height: 1.5;
+          font-size: 1.8rem;
+          color: $mz-theme-font-color-dark;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
